@@ -77,7 +77,7 @@ python evaluate_model.py
 **Dhiraj Bandi**  
 M.S. Data Science & Artificial Intelligence  
 University of Central Missouri  
-Email: dhirajbandi2000@gmail.com  
+Email: dhirajbandiwork@gmail.com  
 
 ---
 This project aims to **leverage AI for early breast cancer detection**, improving diagnostic accuracy and supporting medical professionals.
