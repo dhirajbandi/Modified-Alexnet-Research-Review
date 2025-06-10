@@ -55,7 +55,7 @@ This project explores **tumor detection in mammogram images** using a **Modified
 ### 1. Clone the Repository
 ```bash
 git clone <repository_url>
-cd breast_cancer_tumor_detection
+cd Modified-Alexnet-Research-Review
 ```
 
 ### 2. Install Dependencies
