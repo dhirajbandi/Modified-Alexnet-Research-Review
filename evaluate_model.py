@@ -2,10 +2,13 @@ import numpy as np
 import tensorflow as tf
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
 import matplotlib.pyplot as plt
+from data_preprocessing import load_data
 
 # Load dataset
-X_test = np.load("X_test.npy")
-y_test = np.load("y_test.npy")
+# Use the same preprocessing routine as the training script so that evaluation
+# does not rely on externally saved ``.npy`` files. ``load_data`` returns the
+# train and test splits; we only need the test data here.
+_, X_test, _, y_test = load_data()
 
 # Load trained model
 model = tf.keras.models.load_model("breast_cancer_model.h5")
