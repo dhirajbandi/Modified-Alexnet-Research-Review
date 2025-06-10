@@ -32,7 +32,7 @@ This project explores **tumor detection in mammogram images** using a **Modified
 
 ### 4. **Training & Optimization**
 - **Optimizer**: Stochastic Gradient Descent with Momentum (SGDM).
-- **Dataset Split**: 31% for Training, 69% for Testing.
+ - **Dataset Split**: 70% for Training, 30% for Testing.
 - **Evaluation Metrics**:
   - Accuracy: **95.70%**
   - Precision: **0.95**
