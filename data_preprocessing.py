@@ -16,6 +16,9 @@ def load_data():
         for img_file in os.listdir(folder_path):
             img_path = os.path.join(folder_path, img_file)
             image = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)  # Read as grayscale
+            if image is None:
+                print(f"Warning: unable to read {img_path}. Skipping file.")
+                continue
             image = cv2.resize(image, IMAGE_SIZE)  # Resize to 64x64
             images.append(image)
             labels.append(label)
